@@ -134,10 +134,10 @@ class account:
     # debit method
     def debit(self,amount):
         self.balance=self.balance-amount
-        print("Rs.",amount,"was debited from your account")
+        print("Rs.",amount,"was debited from your account.")
     def credit(self,amount):
         self.balance=self.balance+amount
-        print("Rs.",amount,"was credited to your account")
+        print("Rs.",amount,"was credited to your account.")
 
     def print_balance(self):
         print("your balance is",self.balance)
